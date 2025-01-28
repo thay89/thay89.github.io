@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Autor" content="Thaylin Barrueta">
+     <title>Tarea l</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background: #3CB371;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        section h2 {
+            color: #3CB371;
+        }
+        footer {
+            background: #2d3436;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        a {
+            color: #3CB371;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+        ul, ol {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Linda Vista, Barra del Colorado </h1>
+        <p>Limon, Pococi</p>
+     
+    </header>
+    <main>
+       
+        <section>
+            <p><b><i>Linda Vista</i></b> es un pequeño pueblo en la provincia de Limon, muy lejos de las zonas urbanas. La mayor parte de su poblacion esta conformada por <strong>agricultores y ganaderos </strong>. Siendo su principal fuente de ingresos</p>
+            <br>Siendo uno de los principales sitios para el avistamiento de aves del caribe costarricense y de observación de flora y fauna.</br>
+        
+            <img src="Images/Imagen de WhatsApp 2025-01-24 a las 20.08.30_d6f9b380.jpg" alt="Mi foto">
+            <details>
+                <summary>Haz clic aquí para más información</summary>
+                El RNVS Barra del Colorado fue creado en el año de 1985, mediante Decreto Ejecutivo Nº16358-MAG. Sus límites fueron modificados por decreto ejecutivo Nº31804-MINAE el 4 de mayo del 2004.
+
+            </details>
+
+            <dialog id="miDialogo">
+            <p><em>El NVS Barra del Colorado</em>se ubica en el extremo noreste de Costa Rica, en la vertiente Caribe, entre las provincias de Heredia y Limón. Es una de las áreas silvestres protegidas incluidas dentro del ACTo.
+                Limita al Norte con el Refugio Nacional de Vida Silvestre Corredor Fronterizo Norte, mismo que corre paralelo con la frontera norte nacional con la República de Nicaragua y a lo largo del Río San Juan.</p>
+            <button onclick="this.parentElement.close()">Cerrar</button>
+            </dialog>
+            <button onclick="document.getElementById('miDialogo').showModal()">Abrir Diálogo</button>
+        
+        </section>
+        
+        <section>
+            <hgroup>
+                <h1>Caracteristicas del lugar</h1>
+                <h4>Lista de actividades</h4>
+
+            <ul>
+                <li>Ruta de los huevos</li>
+                <li>Cabalgatas</li>
+                <li>Pesca</li>
+                <li>Mejengas</li>
+                <li>Expoferias</li>
+                <li>Turnos</li>
+              
+            </ul>
+            <h3>Ocupaciones principales</h3>
+            <ol>
+                <li>Ganaderos</li>
+                <li>Agricultores</li>
+                <li>Comerciantes</li>
+                <li>Emprendedores</li>
+            </ol>
+            </hgroup>
+           
+        </section>
+
+        <section>
+            <h2>Tabla</h2>
+            <table>
+                <caption>Zonas urbanas cercanas </caption>
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Habitantes</th>
+                        <th>Distancia</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Las Palmitas</td>
+                        <td>400</td>
+                        <td>19 km</td>
+                    </tr>
+                    <tr>
+                        <td>Cariari</td>
+                        <td>300 mil</td>
+                        <td>25 km</td>
+                    </tr>
+
+                    <tr>
+                        <td>Guapiles</td>
+                        <td>92 mil</td>
+                        <td>54 km</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <p> Otra de las caracteristicas de la zona es que no cuentan con servicio de agua(AyA u otras) y ciertas zonas del lugar tampoco cuentan con servicio electrico.
+                <ins>El agua utilizada</ins> proviene principalmente de <ins>nacientes</ins> en la montaña y de pozos, aunque estos no son muy comunes. Las zonas sin electricidad, utilizan plantas electricas o paneles solares.
+                Para evitar cotaminacion y enfermedades, voluntarios extrangeros y universidades hacen estudios en busqueda de CO<sup>2</sup><sub>3</sub>- y/o NO<sup>_</sup><sub>3</sub>, el ultimo estudio fue realizado <time datetime="2022-08-12">12 de Agosto del 2022.</time>
+            <br>Linda Vista es una reserva biologica de vida silvestre por lo que esta rodeada de arboles y bosques, por lo que es comun comer todo tipo de comidas, frutas, vegetales y carnes proveniente de los alrededores.</br>
+            
+            <img src="Images/IMG_7377.jpg" alt="Mi foto">
+            <div style="background-color: lightblue; padding: 1px;">
+                Fotografias tomadas del lugar.
+            </div>
+            <abbr title="Unión Internacional para la Conservación de la Naturaleza">UICN</abbr>
+            <p>Presiona <kbd>Ctrl</kbd> + <kbd>C</kbd> para copiar.</p>
+            <dl>
+                <dt>Escuela Caño Zapota</dt>
+                <dd>Centro educativo de la zona que cuenta solo con dos aulas y un profesor que se encarga
+                     de dar clase a todos los niños desde primero a sexto de la escuela. La poblacion estimada es de aproximadamente  <strong>100 </strong> personas. 
+                     Solo cuenta con una escuela a la cual la cantidad de niños promedio que asisten cada año es de maximo 12. </p></dd>
+                <figure>
+                    <picture>
+                        <source srcset="Images/IMG_7333.jpg" media="(min-width: 800px)">
+                        <source srcset="Images/IMG_7333.jpg" media="(max-width: 799px)">
+                        <img src="Images/IMG_7333.jpg" alt="Imagen adaptable">
+                    </picture>
+                    <figcaption>Centro educativo del lugar.</figcaption>
+                </figure>
+            </dl>
+          </section>
+
+          <section>
+            <p>Sin embargo, debido a la ganaderia, más de <data value="200">200K arboles han sido talados <span style="color: red;">ilegalmente</span>, edstruyendo la flora y fauna del lugar</p>
+                <p>Evitemos la <dfn title="El proceso en el cual un hábitat natural se divide en pequeñas porciones aisladas debido a actividades humanas, lo que reduce la biodiversidad 
+                    y dificulta la supervivencia de las especies.">Fragmentación del Hábitat</dfn></p>
+               
+    
+                <h1>Mapa Interactivo - Barra del Colorado</h1>
+                <img 
+                    src="Images/mapa.png" 
+                    alt="Mapa de Barra del Colorado" 
+                    usemap="#mapa-barra-colorado" 
+                    style="max-width: 100%; height: auto;">
+
+                <map name="mapa-barra-colorado">
+                    <area 
+                    shape="rect" 
+                    coords="100,200,300,400" 
+                    href="https://www.google.com/maps/place/Barra+del+Colorado,+Costa+Rica/@10.668070,-83.664749,12z" 
+                    alt="Barra del Colorado" 
+                    target="_blank">
+                </map>
+
+            </section>
+
+        <section>
+            <h2>Multimedia</h2>
+            <h3>Videos</h3>
+           <video controls style="width: 300px; height: 300px; object-fit: cover; border: 2px solid black;">
+          <source src="Images/Video de WhatsApp 2025-01-26 a las 17.22.10_26f11595.mp4" type="video/mp4">
+          <track src="subtitulos.vtt" kind="subtitles" srclang="es" label="Español">
+
+            Tu navegador no soporta video.
+            </video>
+
+            <h1>Audio</h1>
+            <audio controls>
+                <source src="Images/SpotifyMate.com - Sonidos del Bosque - Sonido Del Bosque y Naturaleza.mp3" type="audio/mpeg">
+                Tu navegador no soporta el elemento de audio.
+            </audio>
+        </section>
+
+        <section>
+            <h3>Canvas</h3>
+            <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000;"></canvas>
+            <script>
+                const canvas = document.getElementById('myCanvas');
+                const ctx = canvas.getContext('2d');
+                ctx.fillStyle = 'green';
+                ctx.fillRect(20, 20, 150, 50);
+            </script>
+        </section>
+
+        <section>
+        
+            <h2>Citas</h2>
+            <blockquote>
+                "No podemos realmente amenazar la Tierra. Siempre sobrevivirá. Lo que estamos amenazando es nuestra supervivencia" - Margaret Atwood
+            </blockquote>
+            <p>Este texto es citado de <cite><mark>El cuento de la criada</mark></cite>.</p>
+
+            <p>Henry David Thoreau dijo: <q>"En la naturaleza está la preservación del mundo."</q></p>
+            <pre>
+                Apoyemos la 
+                    Conservacion de
+                        las reservas biologicas
+            </pre>
+            <p><del>Para mostrar un mensaje en consola, utiliza: <code>console.log('Fauna');</del></code></p>
+            <a href="https://rescatewildlife.org/es/" target="_blank">Ir a RESCATE</a>
+     
+            <svg width="400" height="200">
+
+                <circle cx="50" cy="100" r="5" fill="green">
+                    <animate
+                        attributeName="cy"
+                        values="100;60;100"
+                        keyTimes="0;0.5;1"
+                        dur="1s"
+                        repeatCount="indefinite"
+                        begin="0s" />
+                </circle>
+            
+                <circle cx="150" cy="100" r="5" fill="green">
+                    <animate
+                        attributeName="cy"
+                        values="100;60;100"
+                        keyTimes="0;0.5;1"
+                        dur="1s"
+                        repeatCount="indefinite"
+                        begin="0.2s" />
+                </circle>
+            
+                <circle cx="250" cy="100" r="5" fill="green">
+                    <animate
+                        attributeName="cy"
+                        values="100;60;100"
+                        keyTimes="0;0.5;1"
+                        dur="1s"
+                        repeatCount="indefinite"
+                        begin="0.4s" />
+                </circle>
+            
+                <circle cx="350" cy="100" r="5" fill="green">
+                    <animate
+                        attributeName="cy"
+                        values="100;60;100"
+                        keyTimes="0;0.5;1"
+                        dur="1s"
+                        repeatCount="indefinite"
+                        begin="0.6s" />
+                </circle>
+            </svg>
+
+        </section>
+    </main>
+    <footer>
+        <address>
+            Autor: Thaylin Lopez<br>
+            Correo: <a href="thay@gmail.com">thay@gmail.com</a><br>
+            Teléfono: +8346 8115
+            <img src="Images/Imagen de WhatsApp 2024-12-12 a las 08.55.24_72afda80.jpg" alt="Mi foto" style="width: 200px; height: auto; border-radius: 8px;">
+        </address>
+        <iframe src="https://rescatewildlife.org/es/" width="600" height="400" title="Pagina oficial"></iframe>
+        <iframe  width="560"  height="315" src="https://www.youtube.com/embed/8YIE18Q1YFA"  title="Video de YouTube" 
+        frameborder="0"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+    </iframe>
+    </footer>
+</body>
+</html>
